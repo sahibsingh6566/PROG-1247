@@ -1,0 +1,93 @@
+/* Sahib Singh 8846566 */
+/* Reset default margin and padding */
+body, h1, h2, p, blockquote, footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply font styles */
+html {
+    font: 20px/1.5 Arial, sans-serif;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1rem; /* Relative font size */
+}
+
+q {
+    font-style: italic;
+    font-family: cursive;
+}
+
+footer p {
+    font-size: 0.8rem; /* Relative font size */
+}
+
+/* Set dimensions */
+body {
+    width: 80%; /* Relative to the parent element */
+    max-width: 1200px; /* Absolute width */
+    margin: 0 auto; /* Center align */
+    padding: 20px; /* Padding on all sides */
+}
+
+.main-section {
+    text-align: center; /* Center align text */
+    padding: 20px; /* Padding on all sides */
+}
+
+#bio {
+    text-align: left; /* Align text to the left */
+}
+
+/* Apply borders and box shadows */
+header, footer {
+    border: 1px solid #000; /* Black border */
+    box-shadow: 2px 2px 5px #888; /* Box shadow */
+    text-align: center; /* Align text to the center */
+}
+
+.main-section-figure {
+    border: 1px solid #000; /* Black border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 2px 2px 5px #888; /* Box shadow */
+    margin: 10px auto; /* Center align */
+}
+
+/* Apply color */
+figcaption#absolute-path-image {
+    color: #ff0000; /* Red font color */
+}
+
+figcaption#relative-path-image {
+    color: #00ff00; /* Green font color */
+}
+
+h1, h2 {
+    color: navy; /* Named color */
+}
+
+/* Background */
+header, footer {
+    background: linear-gradient(to bottom, #fff, #ccc); /* Gradient background */
+}
+
+.main-section {
+    background-color: hsla(120, 100%, 50%, 0.3); /* HSLA background color */
+}
+
+#absolute-path-image {
+    background-color: hsla(240, 100%, 50%, 0.3); /* HSLA background color */
+}
+
+#relative-path-image {
+    background-color: hsla(0, 100%, 50%, 0.3); /* HSLA background color */
+}
+
+
